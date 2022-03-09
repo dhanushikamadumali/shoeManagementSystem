@@ -1,0 +1,23 @@
+
+.search {
+    position: relative;
+    /* padding:15px 0; */
+    margin-left: 40px;
+    margin-bottom: 19px; 
+    align-items: center;
+}
+.search > .fa-user-friends{
+    position: absolute;  
+    width: 30px;
+    text-align: justify;
+    justify-content: center;
+    /* padding-top: 4px; */
+    font-size: 40px;
+    color: #AAA;
+    
+}
+.search > input{
+    font-size: 19px;
+    margin-left: 50px;
+    
+}

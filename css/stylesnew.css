@@ -1,0 +1,52 @@
+input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #cccccc;
+    -webkit-box-shadow: inset 0px 0px 27px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 27px -8px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 27px -8px rgba(0,0,0,0.75);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #c0392b;
+    color: #c0392b;
+}
+
+input:focus + .fa {
+    color: #c0392b;
+}
+
+.input-icons {
+    position: relative;
+    margin: 5px 100px 5px 100px;
+}
+
+.input-icons > input {
+    text-indent: 17px;
+    font-family: "Lato", sans-serif;
+}
+
+.input-icons > .fa-user {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  font-size: 15px;
+  color: #777777;
+}
+
+.input-icons > .fa-lock {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  font-size: 15px;
+  color: #777777;
+}
+
+
+.input-pilotage input:focus + label {
+    color: #005EB8;
+}
+.input-pilotage input:focus + label + i {
+    color: #005EB8;
+}
